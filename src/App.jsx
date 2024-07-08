@@ -24,6 +24,8 @@ const initialStoreItems = [
   }
 ];
 
+<div>deneme</div>
+
 function App() {
 
   let [storeItems, setStoreItems] = useState(initialStoreItems);
