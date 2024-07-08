@@ -21,3 +21,10 @@ p {
     align-items: center;
 
 }
+
+.addButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}

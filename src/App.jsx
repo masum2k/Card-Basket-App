@@ -73,7 +73,9 @@ function App() {
         />
       </Input.Wrapper>
       <Space h="xs" />
-      <Button color='tomato' onClick={addItem} style={{ marginTop: "10px" }}>Add Item</Button>
+      <div className='addButton'>
+        <Button color='tomato' onClick={addItem} style={{ marginTop: "10px" }}>Add Item</Button>
+      </div>
       <SimpleGrid cols={3} className='Store'>
         {storeItems.map((storeItem) => {
           return <CardComponent2 key={storeItem.name} name={storeItem.name} price={storeItem.price} onAdd={() => { setBasketItems([...basketItems, { name: storeItem.name, price: storeItem.price }]) }} onRemove={() => removeItem(storeItem.name)} />
