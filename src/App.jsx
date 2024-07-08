@@ -24,7 +24,7 @@ const initialStoreItems = [
   }
 ];
 
-<div>deneme</div>
+
 
 function App() {
 
